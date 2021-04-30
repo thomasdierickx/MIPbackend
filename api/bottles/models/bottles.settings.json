@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bottles",
+  "info": {
+    "name": "bottles",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "beertype": {
+      "type": "string"
+    },
+    "percent": {
+      "type": "integer"
+    },
+    "to": {
+      "type": "string"
+    },
+    "from": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "bottles"
+    }
+  }
+}
