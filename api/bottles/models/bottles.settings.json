@@ -32,11 +32,6 @@
     },
     "description": {
       "type": "text"
-    },
-    "users_permissions_user": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "bottles"
     }
   }
 }
